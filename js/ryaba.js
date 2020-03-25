@@ -14,7 +14,7 @@ function handleButton() {
       v = $(`input[name=${s}`).val();
       str = str.replace(re, v);
     });
-    $rslt.append('<div>' + str + '</div>');
+    $rslt.append(`<div>${str}</div>`);
   });
 }
 
