@@ -35,7 +35,7 @@ function handleData(data) {
 }
 
 function init() {
-	$("#button-fetch").click(handleButton);
+  $("#button-fetch").click(handleButton);
   $.getJSON(dataURL)
   .done(handleData)
 }
